@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Flutter app',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
@@ -75,10 +75,10 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
               Container(
                 alignment: Alignment.bottomCenter,
-                color: Colors.pink,
-                height: 100,
+                color: Colors.red,
+                height: 200,
                 width: 200,
-                child: Text('profile',style: TextStyle(fontSize: 15,color: Colors.black),),
+                child: Text('Account',style: TextStyle(fontSize: 15,color: Colors.black),),
 
               )
             ],

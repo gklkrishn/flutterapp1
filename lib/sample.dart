@@ -79,7 +79,7 @@ class Sample extends StatelessWidget {
                  children: [
                    Container(
                     alignment: Alignment.center,
-                    color: Colors.grey,
+                    color: Colors.green,
                     height: 100,
                     width: 100,
                     // child: const Text('img',style: TextStyle(fontSize: 15,color: Colors.white),),
